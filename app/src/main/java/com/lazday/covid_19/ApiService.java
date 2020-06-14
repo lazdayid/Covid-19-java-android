@@ -5,7 +5,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class ApiService {
 
-    private static String BASE_URL = "https://demo.lazday.com/rest-api-sample/";
+    private static String BASE_URL = "https://api.kawalcorona.com/";
     private static Retrofit retrofit = null;
     public static ApiEndpoint endpoint(){
 
